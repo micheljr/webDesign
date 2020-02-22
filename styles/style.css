@@ -1,0 +1,86 @@
+
+body 
+{
+	font-family: "Verdana", "Helvetica", sans-serif;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+
+#main
+{
+	width: 1200px;
+}
+
+.enterScore {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 25px;
+}
+
+header
+{
+	background-color: #266593; 
+}
+
+header div
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+}
+
+header div div 
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin: 20px;
+	align-items: center;
+	border: solid #266593 1px;
+}
+
+header div div:hover {
+	border: solid white 1px;
+}
+
+header div div p 
+{
+	margin-top: 5px;
+	color: white;
+}
+
+.wrapper 
+{
+	width: 100%;
+	border: solid #999 2px;
+	display: flex;
+	flex-direction: row;
+	height: 550px;
+}
+#classList
+{
+	width: 66.5%;
+	
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+#studentDetail
+{
+	width: 33.5%;
+	height: 250px;
+	
+	background-color: #F7F8FA;
+	border-left: solid 5px #E4E5E7;
+	border-bottom: solid 5px #E4E5E7;
+	padding: 20px;
+}
